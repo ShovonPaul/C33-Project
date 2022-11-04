@@ -86,9 +86,9 @@ function setup() {
   
   //button2.mousePress(drop);
   
-  button2.mouseClick(drop);
+  //button2.mouseClick(drop);
 
-  //button2.mouseClicked(drop);
+  button2.mouseClicked(drop);
 
   ellipseMode(RADIUS);
 }
@@ -119,9 +119,9 @@ function draw()
     fruit = null;
     //bunny.change('eating');
 
-    bunny.changeAnimation('eating');
+    //bunny.changeAnimation('eating');
 
-    //bunny.changeAnimation();
+    bunny.changeAnimation();
 
     //bunny.Animation('eating');
   }
